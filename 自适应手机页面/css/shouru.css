@@ -1,0 +1,381 @@
+@media only screen and (width: 320px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media only screen and (width: 360px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media only screen and (width: 375px) {
+  html {
+    font-size: 18.75px;
+  }
+}
+@media only screen and (width: 400px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media only screen and (width: 414px) {
+  html {
+    font-size: 20.7px;
+  }
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.glyphicon-asterisk:before {
+  content: "\002a";
+}
+body,
+p,
+img,
+input,
+h5,
+h4 {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f1f1f1;
+}
+.active {
+  background-color: #f5f5f5;
+}
+.wrap {
+  background-color: #f0eff4;
+  color: #fff;
+}
+.wrap .yujishouru {
+  width: 20rem;
+  height: 10rem;
+  background-color: #f6952a;
+  position: relative;
+}
+.wrap .yujishouru .head-info {
+  position: absolute;
+  top: 1.125rem;
+  left: 1.5rem;
+  font-size: 0.8125rem;
+}
+.wrap .yujishouru .money {
+  position: absolute;
+  top: 3.1875rem;
+  left: 1.5rem;
+  font-size: 2.375rem;
+}
+.wrap .yujishouru .foot-note {
+  position: absolute;
+  bottom: 0.875rem;
+  left: 1.5rem;
+  font-size: 0.6875rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.wrap .yujishouru .card {
+  width: 1.5625rem;
+  height: 1.125rem;
+  background: url("../images/card.png");
+  background-size: 1.5625rem 1.125rem;
+  position: absolute;
+  top: 1.125rem;
+  right: 1.5rem;
+  font-size: 0.6875rem;
+}
+.wrap .yujishouru .card-err {
+  width: 1.875rem;
+  height: 1.4375rem;
+  background: url("../images/card-err.png");
+  background-size: 1.875rem 1.4375rem;
+  position: absolute;
+  top: 1.125rem;
+  right: 1.5rem;
+  font-size: 0.6875rem;
+}
+.wrap .tixian {
+  background-color: #f8891c;
+  height: 3.75rem;
+  width: 20rem;
+  display: flex;
+}
+.wrap .tixian .shangcitixian {
+  margin-top: 0.5625rem;
+  flex: 1;
+  height: 2.625rem;
+  text-align: center;
+  font-size: 0.8125rem;
+}
+.wrap .tixian .shangcitixian:nth-child(1) {
+  border-right: 0.0625rem solid #faad61;
+}
+.wrap .tixian .shangcitixian > p:nth-child(1) {
+  padding-top: 0.3125rem;
+}
+.wrap .tixian .shangcitixian > p:nth-child(2) {
+  padding-bottom: 0.3125rem;
+}
+.wrap .tab {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  margin-top: 0.75rem;
+  height: 5.5rem;
+  display: flex;
+  background-color: #fff;
+}
+.wrap .tab .icon {
+  color: #777777;
+  flex: 1;
+  font-size: 0.6875rem;
+  text-align: center;
+}
+.wrap .tab .icon:nth-child(-n+2) {
+  border-right: 1px solid #dddddd;
+}
+.wrap .tab .icon > img {
+  width: 1.5rem;
+  height: 1.625rem;
+  margin-top: 1.125rem;
+}
+.wrap .style1 {
+  width: 20rem;
+  height: 7.5rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+.wrap .style1 .top {
+  width: 18.5rem;
+  height: 5.3125rem;
+  margin-left: 0.75rem;
+  position: relative;
+}
+.wrap .style1 .top .touxiang {
+  width: 3.75rem;
+  height: 3.75rem;
+  position: absolute;
+  left: 0;
+  top: 0.875rem;
+}
+.wrap .style1 .top .touxiang > img {
+  width: 3.75rem;
+  height: 3.75rem;
+}
+.wrap .style1 .top .name {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #000;
+  position: absolute;
+  left: 4.75rem;
+  top: 1.0625rem;
+}
+.wrap .style1 .top .book-num {
+  font-size: 0.6875rem;
+  color: #777777;
+  position: absolute;
+  left: 4.75rem;
+  top: 2.5625rem;
+}
+.wrap .style1 .top .book-time {
+  font-size: 0.5625rem;
+  color: #bbbbbb;
+  position: absolute;
+  left: 4.75rem;
+  bottom: 0.8125rem;
+}
+.wrap .style1 .top .book-money {
+  font-size: 0.8125rem;
+  color: #000;
+  position: absolute;
+  right: 0;
+  top: 1.0625rem;
+  font-weight: 600;
+}
+.wrap .style1 .foot {
+  width: 18.5rem;
+  height: 2.1875rem;
+  margin-left: 0.75rem;
+  border-top: 1px dashed #dddddd;
+  position: relative;
+}
+.wrap .style1 .foot .yuji-time {
+  font-size: 0.6875rem;
+  color: #777777;
+  position: absolute;
+  top: 24%;
+}
+.wrap .style1 .foot .wenti {
+  font-size: 0.6875rem;
+  color: #777777;
+  position: absolute;
+  right: 0;
+  top: 24%;
+}
+.wrap .style2 {
+  width: 20rem;
+  height: 5.25rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+.wrap .style2 .top {
+  width: 18.5rem;
+  height: 5.25rem;
+  margin-left: 0.75rem;
+  position: relative;
+}
+.wrap .style2 .top .touxiang {
+  width: 3.75rem;
+  height: 3.75rem;
+  position: absolute;
+  left: 0;
+  top: 0.75rem;
+}
+.wrap .style2 .top .touxiang > img {
+  width: 3.75rem;
+  height: 3.75rem;
+}
+.wrap .style2 .top .name {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #000;
+  position: absolute;
+  left: 4.75rem;
+  top: 1.0625rem;
+}
+.wrap .style2 .top .book-num {
+  font-size: 0.6875rem;
+  color: #777777;
+  position: absolute;
+  left: 4.75rem;
+  top: 2.5625rem;
+}
+.wrap .style2 .top .book-time {
+  font-size: 0.5625rem;
+  color: #bbbbbb;
+  position: absolute;
+  left: 4.75rem;
+  bottom: 0.8125rem;
+}
+.wrap .style2 .top .book-money {
+  font-size: 0.8125rem;
+  color: #000;
+  position: absolute;
+  right: 0;
+  top: 1.0625rem;
+  font-weight: 600;
+}
+.wrap .style2 .top .tuikuan {
+  color: #f8891c;
+  position: absolute;
+  font-size: 0.75rem;
+  right: 0;
+  bottom: 0.875rem;
+}
+.wrap .item {
+  width: 20rem;
+  height: 4rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+.wrap .item .top {
+  width: 18.5rem;
+  height: 4rem;
+  margin-left: 0.75rem;
+  position: relative;
+  background-color: #fff;
+}
+.wrap .item .top .tixian-time {
+  color: #000;
+  font-size: 0.75rem;
+  position: absolute;
+  top: 0.875rem;
+}
+.wrap .item .top .book-money {
+  font-size: 0.8125rem;
+  color: #000;
+  position: absolute;
+  right: 0;
+  top: 0.8125rem;
+  font-weight: 600;
+}
+.wrap .item .top .note {
+  color: #aaaaaa;
+  font-size: 0.75rem;
+  position: absolute;
+  bottom: 0.875rem;
+}
+.book-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.book-info .mask {
+  width: 20rem;
+  height: 6.0625rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.book-info .real-info {
+  flex: 1;
+  background-color: #fff;
+  position: relative;
+}
+.book-info .real-info .close {
+  height: 3.25rem;
+  background-color: #efefef;
+  text-align: center;
+}
+.book-info .real-info .close > img {
+  width: 1.375rem;
+  padding-top: 0.9375rem;
+}
+.book-info .real-info .top-info {
+  position: absolute;
+  top: 4.75rem;
+  left: 1rem;
+}
+.book-info .real-info .top-info > .tips1 {
+  display: block;
+  margin-top: 0.625rem;
+  font-size: 0.8125rem;
+  color: #8c8c8c;
+}
+.book-info .real-info .mid-info > img {
+  width: 17.03125rem;
+  height: 3.78125rem;
+  position: absolute;
+  top: 9.1875rem;
+  left: 1.5rem;
+}
+.book-info .real-info .bot-info {
+  position: absolute;
+  top: 15.5rem;
+  left: 1rem;
+  padding-right: 1rem;
+}
+.book-info .real-info .bot-info > h5 {
+  padding-bottom: 1.25rem;
+}
+.book-info .real-info .bot-info > span {
+  display: block;
+  font-size: 0.8125rem;
+  padding-bottom: 1rem;
+  color: #8c8c8c;
+}

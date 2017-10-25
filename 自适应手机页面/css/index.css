@@ -1,0 +1,296 @@
+@media only screen and (width: 320px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media only screen and (width: 360px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media only screen and (width: 375px) {
+  html {
+    font-size: 18.75px;
+  }
+}
+@media only screen and (width: 400px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media only screen and (width: 414px) {
+  html {
+    font-size: 20.7px;
+  }
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.glyphicon-asterisk:before {
+  content: "\002a";
+}
+body,
+p,
+img,
+input,
+h5,
+h4 {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f1f1f1;
+}
+.wrap {
+  margin-top: -4px;
+}
+.wrap .note {
+  width: 20rem;
+  height: 3.25rem;
+  font-size: 0.6875rem;
+  border-bottom: 1px solid #ddd;
+  color: #9da4ad;
+}
+.wrap .note > p {
+  padding-top: 0.6875rem;
+  padding-left: 0.8125rem;
+}
+.wrap .name,
+.wrap .identify {
+  height: 3.5rem;
+  border-top: 0.03125rem solid #ddd;
+  border-bottom: 0.03125rem solid #ddd;
+  line-height: 3.5rem;
+  background-color: #fff;
+}
+.wrap .name .real-name,
+.wrap .identify .real-name {
+  position: relative;
+  float: left;
+  margin-left: 0.75rem;
+  font-size: 1rem;
+  color: #666;
+}
+.wrap .name > input,
+.wrap .identify > input {
+  line-height: 3.5rem;
+  float: right;
+  margin-right: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  max-width: 3rem;
+}
+.wrap .name > input:focus,
+.wrap .identify > input:focus {
+  outline: none;
+}
+.wrap .identify .id-num {
+  float: left;
+  margin-left: 0.75rem;
+  font-size: 1rem;
+  color: #666;
+}
+.wrap .identify > input {
+  line-height: 3.5rem;
+  float: right;
+  margin-right: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  max-width: 10rem;
+}
+.wrap .identify > input:focus {
+  outline: none;
+}
+.submit {
+  border-top: 0.03125rem solid #ddd;
+}
+.submit .protect {
+  width: 18.5rem;
+  height: 2.75rem;
+  border: none;
+  background-color: #fb6c0d;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 6px;
+  margin-top: 1.75rem;
+  margin-left: 0.75rem;
+}
+.shoukuan .kaihuren {
+  margin-top: 4.5px;
+  height: 3.5rem;
+  border-top: 0.03125rem solid #ddd;
+  border-bottom: 0.03125rem solid #ddd;
+  line-height: 3.5rem;
+  background-color: #fff;
+  height: 3.75rem;
+}
+.shoukuan .kaihuren .real-name {
+  position: relative;
+  float: left;
+  margin-left: 0.75rem;
+  font-size: 1rem;
+  color: #666;
+}
+.shoukuan .kaihuren > input {
+  line-height: 3.5rem;
+  float: right;
+  margin-right: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  max-width: 3rem;
+}
+.shoukuan .kaihuren > input:focus {
+  outline: none;
+}
+.shoukuan .kaihuren .tips {
+  position: absolute;
+  font-size: 0.6875rem;
+  color: #9da4ad;
+  width: 18rem;
+  top: 21px;
+  color: #ddd;
+}
+.shoukuan .yinhang {
+  height: 3.5rem;
+  border-top: 0.03125rem solid #ddd;
+  border-bottom: 0.03125rem solid #ddd;
+  line-height: 3.5rem;
+  background-color: #fff;
+}
+.shoukuan .yinhang .real-name {
+  position: relative;
+  float: left;
+  margin-left: 0.75rem;
+  font-size: 1rem;
+  color: #666;
+}
+.shoukuan .yinhang > input {
+  line-height: 3.5rem;
+  float: right;
+  margin-right: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  max-width: 3rem;
+}
+.shoukuan .yinhang > input:focus {
+  outline: none;
+}
+.shoukuan .yinhang .kaihuyinghang {
+  position: relative;
+  float: left;
+  margin-left: 0.75rem;
+  font-size: 1rem;
+  color: #666;
+}
+.shoukuan .yinhang .real-yinhang {
+  display: inline-block;
+  float: right;
+  margin-right: 0.75rem;
+}
+.shoukuan .yinhang .real-yinhang:before {
+  line-height: 3.5rem;
+}
+.shoukuan .chuxv-card {
+  height: 3.5rem;
+  border-top: 0.03125rem solid #ddd;
+  border-bottom: 0.03125rem solid #ddd;
+  line-height: 3.5rem;
+  background-color: #fff;
+}
+.shoukuan .chuxv-card .real-name {
+  position: relative;
+  float: left;
+  margin-left: 0.75rem;
+  font-size: 1rem;
+  color: #666;
+}
+.shoukuan .chuxv-card > input {
+  line-height: 3.5rem;
+  float: right;
+  margin-right: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  max-width: 3rem;
+}
+.shoukuan .chuxv-card > input:focus {
+  outline: none;
+}
+.shoukuan .chuxv-card .card {
+  position: relative;
+  float: left;
+  margin-left: 0.75rem;
+  font-size: 1rem;
+  color: #666;
+}
+.shoukuan .chuxv-card > input {
+  line-height: 3.5rem;
+  float: right;
+  margin-right: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  max-width: 9rem;
+}
+.shoukuan .chuxv-card > input:focus {
+  outline: none;
+}
+.shoukuan .zhanghaobaohu {
+  height: 3.5rem;
+  border-top: 0.03125rem solid #ddd;
+  border-bottom: 0.03125rem solid #ddd;
+  line-height: 3.5rem;
+  background-color: #fff;
+}
+.shoukuan .zhanghaobaohu .real-name {
+  position: relative;
+  float: left;
+  margin-left: 0.75rem;
+  font-size: 1rem;
+  color: #666;
+}
+.shoukuan .zhanghaobaohu > input {
+  line-height: 3.5rem;
+  float: right;
+  margin-right: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  max-width: 3rem;
+}
+.shoukuan .zhanghaobaohu > input:focus {
+  outline: none;
+}
+.shoukuan .zhanghaobaohu .baohu {
+  position: relative;
+  float: left;
+  margin-left: 0.75rem;
+  font-size: 1rem;
+  color: #666;
+  color: #000;
+}
+.shoukuan .zhanghaobaohu .yibaohu {
+  float: right;
+  margin-right: 0.75rem;
+  color: #ddd;
+}
+.yinhangxuanzhe {
+  width: 20rem;
+}
+.yinhangxuanzhe .mask {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 386;
+}

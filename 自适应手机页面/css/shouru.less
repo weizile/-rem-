@@ -1,0 +1,328 @@
+@import "base.less";
+@org1:#f6952a;
+@org2:#f8891c;
+.active{
+  background-color: #f5f5f5;
+}
+.wrap{
+  background-color: #f0eff4;
+  color: #fff;
+  .yujishouru{
+    width: 20rem;
+    height:320/32rem;
+    background-color: @org1;
+    position: relative;
+    .head-info{
+      position: absolute;
+      top:36/32rem;
+      left:48/32rem;
+      font-size: 26/32rem;
+    }
+    .money{
+      position: absolute;
+      top:102/32rem;
+      left:48/32rem;
+      font-size: 76/32rem;
+    }
+    .foot-note{
+      position: absolute;
+      bottom:28/32rem;
+      left:48/32rem;
+      font-size: 22/32rem;
+      color: rgba(255,255,255,.5);
+    }
+    .card{
+      width:50/32rem;
+      height:36/32rem;
+      background: url("../images/card.png");
+      background-size: 50/32rem 36/32rem;
+      position: absolute;
+      top:36/32rem;
+      right:48/32rem;
+      font-size: 22/32rem;
+    }
+    .card-err{
+      width:60/32rem;
+      height:46/32rem;
+      background: url("../images/card-err.png");
+      background-size: 60/32rem 46/32rem;
+      position: absolute;
+      top:36/32rem;
+      right:48/32rem;
+      font-size: 22/32rem;
+    }
+  }
+  .tixian{
+    background-color: @org2;
+    height:120/32rem;
+    width:20rem;
+    display: flex;
+    .shangcitixian{
+      margin-top: 18/32rem;
+      flex: 1;
+      height:84/32rem;
+      text-align: center;
+      font-size: 26/32rem;
+      &:nth-child(1){
+        border-right:2/32rem solid #faad61;
+      }
+      &>p:nth-child(1){
+       padding-top: 10/32rem;
+      }
+      &>p:nth-child(2){
+        padding-bottom: 10/32rem;
+      }
+    }
+  }
+  .tab{
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    margin-top: 24/32rem;
+    height:176/32rem;
+    display: flex;
+    background-color: #fff;
+    .icon {
+      color: #777777;
+      flex: 1;
+      font-size: 22/32rem;
+      text-align: center;
+      &:nth-child(-n+2){
+        border-right: 1px solid #dddddd;
+      }
+      &>img{
+        width:48/32rem;
+        height:52/32rem;
+        margin-top: 36/32rem;
+      }
+    }
+  }
+  .style1{
+    width:20rem;
+    height:240/32rem;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    .top{
+      width:18.5rem;
+      height:170/32rem;
+      margin-left: 24/32rem;
+      position: relative;
+      .touxiang{
+        width:120/32rem;
+        height:120/32rem;
+        position: absolute;
+        left:0;
+        top:28/32rem;
+        &>img{
+          width:120/32rem;
+          height:120/32rem;
+        }
+      }
+      .name{
+        font-size: 28/32rem;
+        font-weight: 600;
+        color: #000;
+        position: absolute;
+        left:152/32rem;
+        top:34/32rem;
+      }
+      .book-num{
+        font-size: 22/32rem;
+        color: #777777;
+        position: absolute;
+        left:152/32rem;
+        top:82/32rem;
+      }
+      .book-time{
+        font-size: 18/32rem;
+        color: #bbbbbb;
+        position: absolute;
+        left:152/32rem;
+        bottom:26/32rem;
+      }
+      .book-money{
+        font-size: 26/32rem;
+        color: #000;
+        position: absolute;
+        right:0;
+        top:34/32rem;
+        font-weight: 600;
+      }
+    }
+    .foot{
+      width:18.5rem;
+      height:70/32rem;
+      margin-left: 24/32rem;
+      border-top:1px dashed #dddddd;
+      position: relative;
+      .yuji-time{
+        font-size: 22/32rem;
+        color: #777777;
+        position: absolute;
+        top:24%;
+      }
+      .wenti{
+        font-size: 22/32rem;
+        color: #777777;
+        position: absolute;
+        right: 0;
+        top:24%;
+      }
+    }
+  }
+  .style2{
+    width:20rem;
+    height:168/32rem;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    .top{
+      width:18.5rem;
+      height:168/32rem;
+      margin-left: 24/32rem;
+      position: relative;
+      .touxiang{
+        width:120/32rem;
+        height:120/32rem;
+        position: absolute;
+        left:0;
+        top:24/32rem;
+        &>img{
+          width:120/32rem;
+          height:120/32rem;
+        }
+      }
+      .name{
+        font-size: 28/32rem;
+        font-weight: 600;
+        color: #000;
+        position: absolute;
+        left:152/32rem;
+        top:34/32rem;
+      }
+      .book-num{
+        font-size: 22/32rem;
+        color: #777777;
+        position: absolute;
+        left:152/32rem;
+        top:82/32rem;
+      }
+      .book-time{
+        font-size: 18/32rem;
+        color: #bbbbbb;
+        position: absolute;
+        left:152/32rem;
+        bottom:26/32rem;
+      }
+      .book-money{
+        font-size: 26/32rem;
+        color: #000;
+        position: absolute;
+        right:0;
+        top:34/32rem;
+        font-weight: 600;
+      }
+      .tuikuan{
+        color: @org2;
+        position: absolute;
+        font-size: 24/32rem;
+        right:0;
+        bottom:28/32rem;
+      }
+    }
+  }
+  .item{
+    width:20rem;
+    height:128/32rem;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    .top{
+      width:18.5rem;
+      height:128/32rem;
+      margin-left: 24/32rem;
+      position: relative;
+      background-color: #fff;
+      .tixian-time{
+        color: #000;
+        font-size: 24/32rem;
+        position: absolute;
+        top:28/32rem;
+      }
+      .book-money{
+        font-size: 26/32rem;
+        color: #000;
+        position: absolute;
+        right:0;
+        top:26/32rem;
+        font-weight: 600;
+      }
+      .note{
+        color: #aaaaaa;
+        font-size: 24/32rem;
+        position: absolute;
+        bottom:28/32rem;
+      }
+    }
+  }
+
+}
+.book-info{
+  position: absolute;
+  top:0;
+  left:0;
+  display: flex;
+  flex-direction: column;
+  height:100%;
+  .mask{
+    width:20rem;
+    height:194/32rem;
+    background-color: rgba(0,0,0,.5);
+  }
+  .real-info{
+    flex:1;
+    background-color: #fff;
+    position: relative;
+    .close{
+      height:104/32rem;
+      background-color: #efefef;
+      text-align: center;
+      &>img{
+        width:44/32rem;
+        padding-top: 30/32rem;
+      }
+    }
+    .top-info{
+    position: absolute;
+      top:152/32rem;
+      left:1rem;
+      &>.tips1{
+        display: block;
+        margin-top:20/32rem;
+        font-size: 26/32rem;
+        color: #8c8c8c;
+      }
+    }
+    .mid-info{
+      &>img{
+        width:545/32rem;
+        height:121/32rem;
+        position: absolute;
+        top:294/32rem;
+        left:48/32rem;
+      }
+    }
+    .bot-info{
+      position: absolute;
+      top:496/32rem;
+      left:1rem;
+      padding-right:1rem;
+      &>h5{
+        padding-bottom: 40/32rem;
+    }
+      &>span{
+        display: block;
+        font-size: 26/32rem;
+        padding-bottom: 1rem;
+        color: #8c8c8c;
+      }
+    }
+  }
+}

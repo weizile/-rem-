@@ -1,0 +1,146 @@
+@import "base.less";
+.wrap{
+  margin-top: -4px;
+  .note{
+    width: 20rem;
+    height:104/32rem;
+    font-size: 22/32rem;
+    border-bottom:1px solid @border-color;
+    color: #9da4ad;
+    &>p{
+      padding-top:22/32rem;
+      padding-left:26/32rem;
+    }
+  }
+  .name,.identify{
+    height: 112/32rem;
+    border-top:1/32rem solid @border-color;
+    border-bottom:1/32rem solid @border-color;
+    line-height:112/32rem;
+    background-color: #fff;
+    .real-name{
+      position: relative;
+      float: left;
+      margin-left: 24/32rem;
+      font-size: 1rem;
+      color: @info-col;
+    }
+    &>input{
+      line-height:112/32rem;
+      float: right;
+      margin-right: 24/32rem;
+      font-size: 1rem;
+        border:none;
+        max-width:3rem;
+        &:focus{
+          outline:none;
+        }
+    }
+  }
+  .identify{
+    .id-num{
+      float: left;
+      margin-left: 24/32rem;
+      font-size: 1rem;
+      color: @info-col;
+    }
+    &>input{
+      line-height:112/32rem;
+      float: right;
+      margin-right: 24/32rem;
+      font-size: 1rem;
+      border:none;
+      max-width:10rem;
+      &:focus{
+        outline:none;
+      }
+    }
+  }
+}
+
+.submit{
+  border-top:1/32rem solid @border-color;
+  .protect{
+    width:592/32rem;
+    height: 88/32rem;
+    border:none;
+    background-color: #fb6c0d;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 6px;
+    margin-top:56/32rem;
+    margin-left:24/32rem;
+  }
+}
+
+.shoukuan {
+  .kaihuren{
+    margin-top: 4.5px;
+    .wrap>.name;
+    height: 120/32rem;
+    .tips{
+      position: absolute;
+      font-size: 22/32rem;
+      color: #9da4ad;
+      width: 18rem;
+      top:21px;
+      color: #ddd;
+    }
+  }
+
+  .yinhang{
+    .wrap>.name;
+    .kaihuyinghang{
+      .wrap>.name>.real-name;
+    }
+    .real-yinhang {
+      //line-height: 112/32rem;
+      display: inline-block;
+      float: right;
+      margin-right: 24/32rem;
+      &:before{
+        line-height:112/32rem;
+      }
+    }
+  }
+  .chuxv-card{
+    .wrap>.name;
+    .card{
+      .wrap>.name>.real-name;
+    }
+    &>input{
+      line-height:112/32rem;
+      float: right;
+      margin-right: 24/32rem;
+      font-size: 1rem;
+      border:none;
+      max-width:9rem;
+      &:focus{
+        outline:none;
+      }
+    }
+  }
+
+  .zhanghaobaohu{
+    .wrap>.name;
+    .baohu{
+      .wrap>.name>.real-name;
+      color: #000;;
+    }
+    .yibaohu{
+      float: right;
+      margin-right: 24/32rem;
+      color: @border-color;
+    }
+  }
+}
+.yinhangxuanzhe{
+  width:20rem;
+  .mask{
+    background-color: rgba(0,0,0,0.5);
+    height:386;
+  }
+  .xuanzhe{
+
+  }
+}
